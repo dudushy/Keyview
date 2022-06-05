@@ -1,10 +1,7 @@
 # pip freeze > requirements.txt
-#* Initialize
-import updateAllModules
-updateAllModules.update("src/keyboardTemplates")
-
 #* -- Imports
 import os
+import updateKeyboardTemplates
 from keyboardTemplates import *
 
 #* -- Variables
@@ -16,7 +13,8 @@ def clearConsole() -> None: #? Clear console
 
 def main() -> None:
     kbDefault.test()
-    test.say("test")
+    kbTest0.test()
+    kbTest1.test()
 
 #! Main
 if __name__ == "__main__":
