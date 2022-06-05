@@ -1,1 +1,1 @@
-__all__ = ["kbDefault"]
+__all__ = ['kbDefault', 'test']
