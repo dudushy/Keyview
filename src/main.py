@@ -1,7 +1,8 @@
 # pip freeze > requirements.txt
-#* -- Imports
-import os
+#* Initialize and Imports
 import updateKeyboardTemplates
+updateKeyboardTemplates.update__all__()
+import os
 from keyboardTemplates import *
 
 #* -- Variables
